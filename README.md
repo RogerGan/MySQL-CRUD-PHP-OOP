@@ -1,5 +1,7 @@
 原始地址：https://github.com/rorystandley/MySQLi-CRUD-PHP-OOP
 
+脚本作用：在PC上搭建PHP的Web Service，给iOS移动客户端写入数据库使用；
+
 **To use this class with MySQLi please find it <a href="https://github.com/rorystandley/MySQLi-CRUD-PHP-OOP">here</a>**
 
 A simple PHP Class for using with MySQL create, read, update and delete functions. Using OOP this class can easily be added to to enhance existing functions or create more.
