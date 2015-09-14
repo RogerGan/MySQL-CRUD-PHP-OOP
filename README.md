@@ -2,6 +2,18 @@
 
 脚本作用：在PC上搭建PHP的Web Service，给iOS移动客户端写入数据库使用；
 
+使用方法：
+        1.将代码解压后放到PHP的Server路径下；
+        2.修改class/mysql_crud.php：
+                private $db_host = "localhost";  // Change as required
+                private $db_user = "username";  // Change as required
+                private $db_pass = "password";  // Change as required
+                private $db_name = "database";  // Change as required
+        3.客户端调用：
+          http://hostip/MySQL-CRUD-PHP-OOP/insert.php?testid=1&triggertime=20150912165545&duringtime=8765&version=2.0.0.2&buildid=20150912164530&uuid=A734299A93849323445&performancedata={1,23,43,2,43}
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝以下是原来的注释＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
 **To use this class with MySQLi please find it <a href="https://github.com/rorystandley/MySQLi-CRUD-PHP-OOP">here</a>**
 
 A simple PHP Class for using with MySQL create, read, update and delete functions. Using OOP this class can easily be added to to enhance existing functions or create more.
